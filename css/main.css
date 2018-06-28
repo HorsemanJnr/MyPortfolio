@@ -57,7 +57,7 @@ body {
   list-style-type: none;
 }
 footer {
-  background-color: pink;
+  background-color: crimson;
 }
 .fa {
   padding-left:5px;
@@ -88,7 +88,7 @@ footer {
   background-color:#d8d2d4;
 }
 
-.fa fa-github {
+.fa-github {
   padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
