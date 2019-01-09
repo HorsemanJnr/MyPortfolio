@@ -54,8 +54,6 @@ body {
 }
 
 #bl {
-  padding-top: 50px;
-  margin-top: 15px;
   background-color: #af7;
   font-family: Monospace;
 }
@@ -63,6 +61,7 @@ body {
 .none {
   list-style-type: none;
 }
+
 footer {
   background-color: crimson;
 }
