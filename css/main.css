@@ -8,15 +8,17 @@ body {
   margin: 20px 10px 10px 10px;
 }
 .navbar {
-  background-color: #0f9499;
-  
+  background-color: white;
 }
+
 .btn-danger {
   margin: 20px 10px 10px 10px;
 }
+
 .btn-default {
   margin: 20px 10px 10px 10px;
 }
+
 .image-size {
   width: 50px;
   border-radius: 40%;
@@ -43,21 +45,19 @@ body {
 }
 
 #portfolio {
-  padding-top: 75px;
+  padding-top: 50px;
+  color: white;
   font-family: Monospace;
   background-color: #363634;
 }
 
-#contact {
-  padding-top: 50px;
-  margin-top: 15px;
-  background-color: #ff9;
-  font-family: Monospace;
-  background-color: #46463E;
-}
-
 #bl {
   background-color: #af7;
+}
+
+p .blocktext {
+  margin-left: auto;
+  margin-right: auto
 }
 
 .none {
@@ -67,22 +67,12 @@ body {
 footer {
   background-color: crimson;
 }
+
 .fa {
   padding-left:5px;
   margin-left: 5px;
 }
-.fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-facebook:hover {
-    background-color: #fff;
-}
+
 .fa-linkedin {
     padding:10px 14px;
     -o-transition:.5s;
