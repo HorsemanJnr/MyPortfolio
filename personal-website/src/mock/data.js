@@ -2,47 +2,47 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Charles Junior Kwanin | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Charles Junior Kwanin',
+  subtitle: 'Software Engineer @ Goldman Sachs',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'cj.jpg',
+  paragraphOne: 'Oberlin College 2020, B.A Computer Science, Economics minor with a Statistical Modeling concentration',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'space_escape.png',
+    title: 'Space Escape (Warning: Plays sound)',
+    info: '2-D Puzzle Platformer in the guise of an Escape room',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://dis.benno-lueders.de/2019SpringGames/2DPlatformer/SpaceEscape/',
+    repo: 'https://github.com/charlesjkwanin/Space-Escape', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Genetic Algorithms',
+    info: 'Illustrating a K-Means algorithm that chooses cluster centers using Genetic algorithm heuristics.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/charlesjkwanin/winter-term-2020', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
