@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'cj.jpg',
-  paragraphOne: 'Oberlin College 2020, B.A Computer Science, Economics minor with a Statistical Modeling concentration',
+  paragraphOne:
+    'Oberlin College 2020, B.A Computer Science, Economics minor with a Statistical Modeling concentration',
   paragraphTwo: '',
   paragraphThree: '',
-  //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  //  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -44,22 +45,22 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/charlesjkwanin/winter-term-2020', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'charlesjkwanin@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +68,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/charles-kwanin/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/charlesjkwanin',
     },
   ],
 };
