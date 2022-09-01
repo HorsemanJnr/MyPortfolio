@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Charles Junior Kwanin | Developer', // e.g: 'Name | Developer'
+  title: 'Charles Kwanin | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Charles Junior Kwanin',
-  subtitle: 'Software Engineer @ Goldman Sachs',
+  subtitle: 'Software Engineer II @ Qualtrics',
   cta: '',
 };
 
