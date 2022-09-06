@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "charles-kwanin-personal-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Charles Kwanin's Personal Website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "gatsby": "^2.23.7",
+    "gatsby": "^4.0.0",
     "gatsby-image": "^2.4.7",
     "gatsby-plugin-manifest": "^4.22.0",
     "gatsby-plugin-offline": "^3.2.11",
